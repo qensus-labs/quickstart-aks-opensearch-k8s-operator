@@ -8,7 +8,7 @@ Walking through the Quickstart that is part of the [Operator User guide](https:/
 
 ### Deployment steps
 
-By default most settings for Kubelet and Linux OS are set to default. Most use cases this seems okay, but with OpenSearch this can give you some challenges. Opensearch clusters require some important settings for Production workloads regarding memory related kernel settings, which is further described in the [Opensearch documentation](https://opensearch.org/docs/latest/install-and-configure/install-opensearch/index/#important-settings).
+In AKS most settings for Kubelet and Linux OS are set to default. Most use cases this seems okay, but with OpenSearch this can give you some challenges. Opensearch clusters require some important settings for Production workloads regarding memory related kernel settings, which is further described in the [Opensearch documentation](https://opensearch.org/docs/latest/install-and-configure/install-opensearch/index/#important-settings).
 
 Important is that we provide a custom node configuration to our AKS deployment, especially for the `vm.swappiness` and `vm.max_map_count` settings.
 To provide custom settings we can use an additional input that is provided by an Azure extension called `aks-preview`. For simplicity we are using the `AZ CLI using the Cloud Shell`, but also possible in a Bicep resource definition. 
