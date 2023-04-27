@@ -209,4 +209,4 @@ EOF
 
 Et voila, we have a cluster within 10 minutes !!!
 
-<img src="https://raw.githubusercontent.com/avwsolutions/quickstart-aks-opensearch-k8s-operator/main/cluster-opensearch-welcome.png" alt="architecture setup">
+<img src="https://raw.githubusercontent.com/avwsolutions/quickstart-aks-opensearch-k8s-operator/main/cluster-opensearch-welcome-msg.png" alt="architecture setup">
