@@ -1,0 +1,6 @@
+{
+ "sysctls": {
+  "vmMaxMapCount": 262144,
+  "vmSwappiness": 0
+ }
+}
