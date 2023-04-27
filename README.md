@@ -207,6 +207,6 @@ spec:
 EOF
 ```
 
-Et voila, we have a cluster within 10 minutes !!!
+Et voila, we have a cluster within 10 minutes !!!  And don't forget to update your password asap
 
 <img src="https://raw.githubusercontent.com/avwsolutions/quickstart-aks-opensearch-k8s-operator/main/cluster-opensearch-welcome-msg.png" alt="architecture setup">
